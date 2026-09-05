@@ -13,11 +13,11 @@ public class Carro {
     String placa;
 
     public void acelerar() {
-        System.out.println(modelo + " está acelerando!");
+        System.out.println(modelo + " tá acelerando");
     }
 
     public void frear() {
-        System.out.println(modelo + " está freando!");
+        System.out.println(modelo + " tá freando");
     }
 
     public static void main(String[] args) {
@@ -33,7 +33,7 @@ public class Carro {
         carro2.marca = "Volkswagen";
         carro2.modelo = "Fusca";
         carro2.cor = "Azul";
-        carro2.ano = 1999;
+        carro2.ano = 2023;
         carro2.placa = "YLI-5678";
 
         carro1.acelerar();
